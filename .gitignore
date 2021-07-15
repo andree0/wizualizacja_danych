@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 # VSC config
-.vscode/
+.vscode
+.vscode/launch.json
