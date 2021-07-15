@@ -14,7 +14,8 @@ class RandomWalk():
     
     @staticmethod
     def get_step():
-        """Generowanie wartości kroku."""
+        """Generowanie wartości kroku.
+        Zwraca wartość kroku, czyli iloczyn kierunku i dystansu."""
         return choice([1, -1]) * choice(range(0, 9))
 
     def fill_walk(self):
