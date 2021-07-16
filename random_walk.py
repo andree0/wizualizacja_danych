@@ -47,7 +47,7 @@ if __name__ == '__main__':
         rw = RandomWalk(50000)
         rw.fill_walk()
 
-        # Wyświetlanie punktóœ błądzenia losowego.
+        # Wyświetlanie punktów błądzenia losowego.
         plt.style.use('classic')
         point_numbers = range(rw.num_points)
 
